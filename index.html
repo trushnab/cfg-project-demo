@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CFG Project Demo</title>
+
+    <!-- Bootstrap CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/60de6000b1.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="app.js"></script>
+
+    <!-- Custom CSS File -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">CFG Mock Project</a>
+
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="true"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner car-img">
+          <div class="carousel-item active">
+            <img src="./img/carousel1.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./img/carousel2.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./img/carousel3.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <nav class="navbar bg-light">
+        <div class="container-fluid">
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link" href="">Team</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#section-1">Section 1</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#section-2">Section 2</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#section-3">Section 3</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="container">
+
+        <section id="team">
+          <h2>Team </i></h2>
+
+          <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                <img src="./img/team1.jpg" class="img-thumbnail" alt="..." />
+                <div class="card mt-2">
+                  <div class="card-header">Iqrah</div>
+                  <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                      <p>
+                        A well-known quote, contained in a blockquote element.
+                      </p>
+                      <footer class="blockquote-footer">
+                        Someone famous in
+                        <cite title="Source Title">Source Title</cite>
+                      </footer>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <img src="./img/team2.jpg" class="img-thumbnail" alt="..." />
+                <div class="card mt-2">
+                  <div class="card-header">Name 1</div>
+                  <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                      <p>
+                        A well-known quote, contained in a blockquote element.
+                      </p>
+                      <footer class="blockquote-footer">
+                        Someone famous in
+                        <cite title="Source Title">Source Title</cite>
+                      </footer>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <img src="./img/team3.jpg" class="img-thumbnail" alt="..." />
+                <div class="card mt-2">
+                  <div class="card-header">Name 2</div>
+                  <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                      <p>
+                        A well-known quote, contained in a blockquote element.
+                      </p>
+                      <footer class="blockquote-footer">
+                        Someone famous in
+                        <cite title="Source Title">Source Title</cite>
+                      </footer>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <hr />
+
+        <section id="section-1">
+          <h2>Section 1</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            deserunt eligendi est molestias beatae? Eaque, itaque aperiam.
+            Officiis labore, itaque reiciendis atque pariatur ipsum! Ad
+            explicabo amet distinctio doloremque nam, qui sapiente cumque quis
+            id. Consequuntur eligendi quia ab impedit iure quaerat, ea, magni,
+            vero quisquam architecto autem excepturi voluptate commodi porro
+            eius consequatur sit debitis voluptates quam quo necessitatibus. Ea
+            provident, tempora porro repellendus repellat modi labore voluptates
+            mollitia. Possimus ipsa dolor blanditiis aliquid quia aut molestiae
+            laboriosam. Quisquam minus voluptatum commodi delectus debitis
+            tempore amet nulla, qui similique necessitatibus laborum magni
+            veritatis nesciunt nostrum. Eum vel ut assumenda non nihil ipsam,
+            eveniet molestias, temporibus reiciendis labore unde ea incidunt
+            fugiat quisquam porro id maiores expedita nam saepe quasi animi
+            deleniti quam eius beatae. Suscipit sint, eligendi excepturi ad nisi
+            animi labore repellendus rerum tempore. Fuga temporibus culpa
+            perspiciatis dolorem eaque dolores iste! Nisi, obcaecati repellat.
+            Dolores, id facilis error incidunt quia maiores veritatis officia
+            explicabo ipsum tempora quisquam sapiente perferendis eveniet?
+            Quibusdam, nihil, nesciunt fuga corporis placeat autem impedit vitae
+            eligendi maiores corrupti ipsa! Quibusdam ipsam cum ea deleniti.
+            Quia cupiditate quasi commodi enim reiciendis labore corporis ipsum
+            porro sequi incidunt, dolor a iure. Qui explicabo dolor minus
+            accusantium voluptas et voluptates amet possimus odit labore quam
+            minima aperiam dolorem, velit ut consequuntur veritatis itaque
+            corporis praesentium quas earum eaque incidunt vel! Maxime quo
+            reprehenderit deserunt, hic numquam ut ducimus et, exercitationem
+            commodi ratione repellendus facilis molestiae a iusto ea odit nihil
+            nobis omnis ullam distinctio, non accusantium! Odit iusto,
+            repellendus molestias quod quisquam corporis ipsam iure consequuntur
+            ducimus culpa magnam vel repellat temporibus quis saepe excepturi
+            quae totam quam minima molestiae, laboriosam sunt porro quo. Porro
+            quo consectetur, enim possimus officia doloremque cupiditate
+            laboriosam libero sapiente totam. Aut laudantium corrupti omnis
+            nostrum, nisi quisquam! Molestias odio nihil inventore perferendis,
+            sequi ipsam, magnam doloremque eaque iure consequuntur provident
+          </p>
+        </section>
+
+        <hr />
+
+        <section id="section-2">
+          <h2>Section 2</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            deserunt eligendi est molestias beatae? Eaque, itaque aperiam.
+            Officiis labore, itaque reiciendis atque pariatur ipsum! Ad
+            explicabo amet distinctio doloremque nam, qui sapiente cumque quis
+            id. Consequuntur eligendi quia ab impedit iure quaerat, ea, magni,
+            vero quisquam architecto autem excepturi voluptate commodi porro
+            eius consequatur sit debitis voluptates quam quo necessitatibus. Ea
+            provident, tempora porro repellendus repellat modi labore voluptates
+            mollitia. Possimus ipsa dolor blanditiis aliquid quia aut molestiae
+            laboriosam. Quisquam minus voluptatum commodi delectus debitis
+            tempore amet nulla, qui similique necessitatibus laborum magni
+            veritatis nesciunt nostrum. Eum vel ut assumenda non nihil ipsam,
+            eveniet molestias, temporibus reiciendis labore unde ea incidunt
+            fugiat quisquam porro id maiores expedita nam saepe quasi animi
+            deleniti quam eius beatae. Suscipit sint, eligendi excepturi ad nisi
+            animi labore repellendus rerum tempore. Fuga temporibus culpa
+            perspiciatis dolorem eaque dolores iste! Nisi, obcaecati repellat.
+            Dolores, id facilis error incidunt quia maiores veritatis officia
+            explicabo ipsum tempora quisquam sapiente perferendis eveniet?
+            Quibusdam, nihil, nesciunt fuga corporis placeat autem impedit vitae
+            eligendi maiores corrupti ipsa! Quibusdam ipsam cum ea deleniti.
+            Quia cupiditate quasi commodi enim reiciendis labore corporis ipsum
+            porro sequi incidunt, dolor a iure. Qui explicabo dolor minus
+            accusantium voluptas et voluptates amet possimus odit labore quam
+            minima aperiam dolorem, velit ut consequuntur veritatis itaque
+            corporis praesentium quas earum eaque incidunt vel! Maxime quo
+            reprehenderit deserunt, hic numquam ut ducimus et, exercitationem
+            commodi ratione repellendus facilis molestiae a iusto ea odit nihil
+            nobis omnis ullam distinctio, non accusantium! Odit iusto,
+            repellendus molestias quod quisquam corporis ipsam iure consequuntur
+            ducimus culpa magnam vel repellat temporibus quis saepe excepturi
+            quae totam quam minima molestiae, laboriosam sunt porro quo. Porro
+            quo consectetur, enim possimus officia doloremque cupiditate
+            laboriosam libero sapiente totam. Aut laudantium corrupti omnis
+            nostrum, nisi quisquam! Molestias odio nihil inventore perferendis,
+            sequi ipsam, magnam doloremque eaque iure consequuntur provident
+          </p>
+        </section>
+
+        <hr />
+
+        <section id="section-3">
+          <h2>Section 3</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            deserunt eligendi est molestias beatae? Eaque, itaque aperiam.
+            Officiis labore, itaque reiciendis atque pariatur ipsum! Ad
+            explicabo amet distinctio doloremque nam, qui sapiente cumque quis
+            id. Consequuntur eligendi quia ab impedit iure quaerat, ea, magni,
+            vero quisquam architecto autem excepturi voluptate commodi porro
+            eius consequatur sit debitis voluptates quam quo necessitatibus. Ea
+            provident, tempora porro repellendus repellat modi labore voluptates
+            mollitia. Possimus ipsa dolor blanditiis aliquid quia aut molestiae
+            laboriosam. Quisquam minus voluptatum commodi delectus debitis
+            tempore amet nulla, qui similique necessitatibus laborum magni
+            veritatis nesciunt nostrum. Eum vel ut assumenda non nihil ipsam,
+            eveniet molestias, temporibus reiciendis labore unde ea incidunt
+            fugiat quisquam porro id maiores expedita nam saepe quasi animi
+            deleniti quam eius beatae. Suscipit sint, eligendi excepturi ad nisi
+            animi labore repellendus rerum tempore. Fuga temporibus culpa
+            perspiciatis dolorem eaque dolores iste! Nisi, obcaecati repellat.
+            Dolores, id facilis error incidunt quia maiores veritatis officia
+            explicabo ipsum tempora quisquam sapiente perferendis eveniet?
+            Quibusdam, nihil, nesciunt fuga corporis placeat autem impedit vitae
+            eligendi maiores corrupti ipsa! Quibusdam ipsam cum ea deleniti.
+            Quia cupiditate quasi commodi enim reiciendis labore corporis ipsum
+            porro sequi incidunt, dolor a iure. Qui explicabo dolor minus
+            accusantium voluptas et voluptates amet possimus odit labore quam
+            minima aperiam dolorem, velit ut consequuntur veritatis itaque
+            corporis praesentium quas earum eaque incidunt vel! Maxime quo
+            reprehenderit deserunt, hic numquam ut ducimus et, exercitationem
+            commodi ratione repellendus facilis molestiae a iusto ea odit nihil
+            nobis omnis ullam distinctio, non accusantium! Odit iusto,
+            repellendus molestias quod quisquam corporis ipsam iure consequuntur
+            ducimus culpa magnam vel repellat temporibus quis saepe excepturi
+            quae totam quam minima molestiae, laboriosam sunt porro quo. Porro
+            quo consectetur, enim possimus officia doloremque cupiditate
+            laboriosam libero sapiente totam. Aut laudantium corrupti omnis
+            nostrum, nisi quisquam! Molestias odio nihil inventore perferendis,
+            sequi ipsam, magnam doloremque eaque iure consequuntur provident
+          </p>
+        </section>
+      </div>
+    </main>
+
+    <footer class="  nav justify-content-center ">
+        <a href="https://twitter.com/iiqrah_" target="blank"><i class="fa-brands fa-twitter px-3"></i></a>
+        <a href="https://instagram.com/iiqrah_" target="blank"><i class="fa-brands fa-instagram px-3"></i></a>
+        <a href="https://linkedin.com/iiqrah_" target="blank"><i class="fa-brands fa-linkedin px-3"></i></a>
+    </footer>
+
+    <button type="button" onclick="gotoTop()" class="btn btn-dark" id="go-to-top">Top</button>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
